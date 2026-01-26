@@ -44,6 +44,6 @@ public class Q4 {
             }
             System.out.println("Column " + (j + 1) + " sum = " + colSum);
         }
-        
+
     }
 }
