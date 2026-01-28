@@ -6,7 +6,6 @@ public class Q8 {
         System.out.println("----- ClassNotFoundException Demo -----");
 
         try {
-            // This class does NOT exist
             Class.forName("com.fake.UnknownClass");
         } catch (ClassNotFoundException e) {
             System.out.println("ClassNotFoundException occurred!");
@@ -14,8 +13,7 @@ public class Q8 {
         }
 
         System.out.println("\n----- NoClassDefFoundError Demo -----");
-
-        // JVM will try to load Helper class
+        
         Helper h = new Helper();
         h.show();
     }
