@@ -13,7 +13,6 @@ class Employee {
     private int age;
     private String designation;
 
-    // 1. Default constructor
     public Employee() {
         this.firstName = "Null";
         this.lastName = "Null";
@@ -35,7 +34,6 @@ class Employee {
         this.designation = "Null";
     }
 
-    // Setter methods
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
@@ -52,7 +50,6 @@ class Employee {
         this.designation = designation;
     }
 
-    // Overriding toString()
     @Override
     public String toString() {
         return "Employee Details: " +
@@ -62,7 +59,6 @@ class Employee {
     }
 }
 
-// Test class
 public class Q5 {
     public static void main(String[] args) {
 
