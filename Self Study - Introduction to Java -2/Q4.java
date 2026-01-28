@@ -1,4 +1,4 @@
-
+// Q4. Write a program to show application of Factory Design Pattern.
 
 import java.util.Scanner;
 
