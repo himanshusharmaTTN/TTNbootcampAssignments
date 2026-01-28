@@ -13,7 +13,6 @@ class ImplementingList
         list.add(7.0f);
         list.add(2.5f);
 
-        // Step 3: Use Iterator to find sum
         Iterator<Float> it = list.iterator();
         float sum = 0;
         while(it.hasNext())
