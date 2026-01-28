@@ -2,11 +2,9 @@
 
 public class Q9 {
 
-    // Custom exception without stack trace
     static class NoStackTraceException extends Exception {
 
         public NoStackTraceException(String message) {
-            // last 'false' = writableStackTrace disabled
             super(message, null, false, false);
         }
     }
@@ -21,7 +19,7 @@ public class Q9 {
             System.out.println(e.getMessage());
 
             System.out.println("\nPrinting exception:");
-            e.printStackTrace();   // stack trace will NOT appear
+            e.printStackTrace();   
         }
     }
 }
