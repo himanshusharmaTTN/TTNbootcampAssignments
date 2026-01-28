@@ -1,3 +1,5 @@
+//Q2. Create a User class with fields:  firstname, lastname, age, phonenumber. Write a program which accepts values of user fields from commandline, create object and append that to a text file. After every user creation the program should prompt: "Do you want to continue creating users? (Type QUIT to exit)" and keep on accepting values and writing to file unitl user quits.
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
