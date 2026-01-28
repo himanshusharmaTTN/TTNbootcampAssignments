@@ -18,8 +18,8 @@ public class Q7 {
 
             System.out.println("Result = " + result);
         }
-        catch (ArithmeticException e) {
-            System.out.println("Error: Invalid input or division by zero.");
+       catch (ArithmeticException | InputMismatchException e) {
+            System.out.println("Error occurred!");
             System.out.println("Message: " + e.getMessage());
         }
         finally {
