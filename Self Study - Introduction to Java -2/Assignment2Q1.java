@@ -18,7 +18,7 @@ enum House {
     }
 }
 
-public class Q1 {
+public class AssQ1 {
     public static void main(String[] args) {
 
         System.out.println("House Types and Their Prices:\n");
