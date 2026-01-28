@@ -8,13 +8,11 @@ enum House {
     BUNGALOW(1_50_00_000);
 
     private int price;
-
-    // Constructor (automatically called)
+    
     House(int price) {
         this.price = price;
     }
-
-    // Getter method
+    
     public int getPrice() {
         return price;
     }
