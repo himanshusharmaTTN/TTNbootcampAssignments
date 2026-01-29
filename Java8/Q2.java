@@ -21,7 +21,7 @@ class Calculator {
     }
 }
 
- class MethodReferenceDemo {
+ class MethodReference {
 
     public static void main(String[] args) {
 
