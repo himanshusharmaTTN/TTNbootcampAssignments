@@ -1,3 +1,4 @@
+// Q4. Write a program to implement constructor reference
 import java.util.function.Supplier;
 import java.util.function.BiFunction;
 
