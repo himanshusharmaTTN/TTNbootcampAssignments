@@ -1,5 +1,6 @@
 //Q7 WAP showing try, multi-catch and finally blocks.
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Q7 {
