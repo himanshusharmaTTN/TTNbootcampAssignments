@@ -9,11 +9,8 @@ It demonstrates core Maven concepts using both a single-module setup and a multi
 
 ```
 maven_assignment
-└── multimodule
-    └── multimodule-parent
-        ├── module-a
-        ├── module-b
-        └── pom.xml
+        ├── bootcampDemo1
+        ├── bootcampDemo1
 ```
 
 ---
@@ -92,8 +89,3 @@ mvn clean package
 This command generates JAR files for both modules.
 
 ---
-
-## References
-
-- Maven Official Documentation: https://maven.apache.org/guides/index.html
-- JitPack Repository: https://jitpack.io
